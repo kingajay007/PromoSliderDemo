@@ -73,7 +73,11 @@
     <Compile Include="Data\PromoSliderObjectContext.cs" />
     <Compile Include="Domain\PromoImageRecord.cs" />
     <Compile Include="Domain\PromoSliderRecord.cs" />
+    <Compile Include="PromoSliderPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Description.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
